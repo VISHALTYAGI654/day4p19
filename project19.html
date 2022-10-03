@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .grid-container {
+  display: grid;
+  background-color:white;
+  height: 400px;
+  width: 1000px;
+  padding: 10px;
+  grid-template-columns: 180px 400px 180px  250px;
+  grid-gap: 20px 5px;
+}
+
+.grid-container > div {
+  background-color:aliceblue;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  height: 200px;
+  width: 150px;
+  grid-row-start: 1;
+  
+  
+  
+}
+p{
+    margin-left: 450px;
+   margin-block-end: 240px;
+   position: fixed;
+   font-size: large;
+    
+}
+
+
+
+.main{
+    height: 450px;
+    width: 1050px;
+    background-color:whitesmoke;
+}
+</style>
+<body>
+    <div class="main">
+        <div class="grid-container">
+            <div class="grid-item1"> <img src="spiderman.jpg" width="150" height="120">Spiderman<br> 12</div>
+            <div class="grid-item2"><img src="wonder women.jpg" width="150" height="120">Wonder<br>women<br> 30</div>
+            <p> 5 - 10</p>
+            <div class="grid-item3"><img src="captain.jpg" width="150" height="120">Captain<br>America<br> 50</div> 
+            <div class="grid-item3"><img src="gem.jpg" width="150" height="120">Gem<br>women<br> 12</div>  
+
+
+        </div>
+    </div>
+</body>
+</html>
